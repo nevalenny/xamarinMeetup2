@@ -5,24 +5,20 @@ using UIKit;
 
 namespace xamarinMeetup2_x_ios
 {
-    public class ItemCell: UITableViewCell
+    public class ItemCell : UITableViewCell
     {
-        UIImageView imageView;
-
-        public ItemCell(IntPtr p):base(p)
-  {
+        // Be aware, when using the new reuse pattern with a custom cell class, 
+        // you need to implement the constructor that takes an IntPtr, 
+        // otherwise Objective-C won't be able to construct an instance of the cell class:
+        public ItemCell(IntPtr p) : base(p)
+        {
         }
 
-        public ItemCell(NSString cellId) : base (UITableViewCellStyle.Default, cellId)
+        public ItemCell(NSString cellId) : base(UITableViewCellStyle.Default, cellId)
         {
             BackgroundView = new UIView { BackgroundColor = UIColor.White };
 
             SelectedBackgroundView = new UIView { BackgroundColor = UIColor.Gray };
-
-            ContentView.Layer.BorderColor = UIColor.LightGray.CGColor;
-            ContentView.Layer.BorderWidth = 1.0f;
-            ContentView.BackgroundColor = UIColor.White;
-            ContentView.Transform = CGAffineTransform.MakeScale(0.9f, 0.9f);
         }
     }
 }
