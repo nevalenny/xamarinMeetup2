@@ -56,4 +56,3 @@ namespace xamarinMeetup2_x_ios
         }
     }
 }
-
