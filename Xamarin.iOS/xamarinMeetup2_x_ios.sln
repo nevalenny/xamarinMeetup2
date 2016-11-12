@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarinMeetup2_x_ios", "xamarinMeetup2_x_ios\xamarinMeetup2_x_ios.csproj", "{9260E41D-E896-434B-9FEC-7E4842E6AB9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9260E41D-E896-434B-9FEC-7E4842E6AB9C}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{9260E41D-E896-434B-9FEC-7E4842E6AB9C}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{9260E41D-E896-434B-9FEC-7E4842E6AB9C}.Release|iPhone.ActiveCfg = Release|iPhone
+		{9260E41D-E896-434B-9FEC-7E4842E6AB9C}.Release|iPhone.Build.0 = Release|iPhone
+		{9260E41D-E896-434B-9FEC-7E4842E6AB9C}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{9260E41D-E896-434B-9FEC-7E4842E6AB9C}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{9260E41D-E896-434B-9FEC-7E4842E6AB9C}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{9260E41D-E896-434B-9FEC-7E4842E6AB9C}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
