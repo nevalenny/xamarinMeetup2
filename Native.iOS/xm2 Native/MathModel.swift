@@ -12,6 +12,7 @@ class MathModel {
     public var arithmeticPerformance: String = ""
     public var collectionsPerformance: String = ""
     public var stringsPerformance: String = ""
+    let repetitions = 1
     
     public func calculate()
     {
@@ -24,7 +25,7 @@ class MathModel {
     {
         var arithmetic: Double = 0
         
-        for _ in 0..<5
+        for _ in 0..<repetitions
         {
             let start = DispatchTime.now()
             
@@ -48,7 +49,7 @@ class MathModel {
             arithmetic += timeInterval
         }
         
-        arithmetic /= 5
+        arithmetic /= Double(repetitions)
         arithmeticPerformance = String(Int(arithmetic)) + " ms"
     }
     
@@ -56,7 +57,7 @@ class MathModel {
     {
         var collections: Double = 0
         
-        for _ in 0..<5
+        for _ in 0..<repetitions
         {
             let start = DispatchTime.now()
             
@@ -85,7 +86,7 @@ class MathModel {
             collections += timeInterval
         }
         
-        collections /= 5
+        collections /= Double(repetitions)
         collectionsPerformance = String(Int(collections)) + " ms"
     }
     
@@ -93,7 +94,7 @@ class MathModel {
     {
         var strings: Double = 0
         
-        for _ in 0..<5
+        for _ in 0..<repetitions
         {
             let start = DispatchTime.now()
             
@@ -117,7 +118,7 @@ class MathModel {
             strings += timeInterval
         }
         
-        strings /= 5
+        strings /= Double(repetitions)
         stringsPerformance = String(Int(strings)) + " ms"
     }
     
