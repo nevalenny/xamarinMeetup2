@@ -1,0 +1,7 @@
+<WorkspaceItem ctype="Workspace">
+  <Items>
+    <Item>Xamarin.Forms/xamarinMeetup2_x_forms.sln</Item>
+    <Item>Xamarin.iOS/xamarinMeetup2_x_ios.sln</Item>
+    <Item>Xamarin.Android/xamarinMeetup2_x_android.sln</Item>
+  </Items>
+</WorkspaceItem>
