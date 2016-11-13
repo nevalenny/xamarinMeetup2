@@ -1,0 +1,6 @@
+framework module Pods_xm2_Native {
+  umbrella header "Pods-xm2 Native-umbrella.h"
+
+  export *
+  module * { export * }
+}

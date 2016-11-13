@@ -1,0 +1,6 @@
+framework module Pods_xm2_NativeUITests {
+  umbrella header "Pods-xm2 NativeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xm2 Native/FirstViewController.swift"
+            timestampString = "500758569.972353"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xm2_Native.FirstViewController.__deallocating_deinit"
+                  moduleName = "xm2 Native"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yn/Projects/xamarinMeetup2/Native.iOS/xm2%20Native/FirstViewController.swift"
+                  timestampString = "500758808.638859"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xm2_Native.FirstViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; xm2_Native.FirstViewController"
+                  moduleName = "xm2 Native"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yn/Projects/xamarinMeetup2/Native.iOS/xm2%20Native/FirstViewController.swift"
+                  timestampString = "500758808.641464"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xm2_Native.FirstViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;xm2_Native.FirstViewController&gt;"
+                  moduleName = "xm2 Native"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yn/Projects/xamarinMeetup2/Native.iOS/xm2%20Native/FirstViewController.swift"
+                  timestampString = "500758808.642898"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xm2_Native.FirstViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;xm2_Native.FirstViewController&gt;"
+                  moduleName = "xm2 Native"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yn/Projects/xamarinMeetup2/Native.iOS/xm2%20Native/FirstViewController.swift"
+                  timestampString = "500758808.644553"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xm2 Native/FirstViewController.swift"
+            timestampString = "500761527.07482"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xm2_Native.FirstViewController.cellId.getter : Swift.String"
+                  moduleName = "xm2 Native"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yn/Projects/xamarinMeetup2/Native.iOS/xm2%20Native/FirstViewController.swift"
+                  timestampString = "500758850.723898"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xm2_Native.FirstViewController.cellId.setter : Swift.String"
+                  moduleName = "xm2 Native"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yn/Projects/xamarinMeetup2/Native.iOS/xm2%20Native/FirstViewController.swift"
+                  timestampString = "500758850.725741"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xm2_Native.FirstViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; xm2_Native.FirstViewController"
+                  moduleName = "xm2 Native"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yn/Projects/xamarinMeetup2/Native.iOS/xm2%20Native/FirstViewController.swift"
+                  timestampString = "500758850.727827"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "79">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xm2_Native.FirstViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;xm2_Native.FirstViewController&gt;"
+                  moduleName = "xm2 Native"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yn/Projects/xamarinMeetup2/Native.iOS/xm2%20Native/FirstViewController.swift"
+                  timestampString = "500758850.729298"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
