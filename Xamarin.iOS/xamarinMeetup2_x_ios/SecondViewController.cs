@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Threading.Tasks;
 using UIKit;
 using xamarinMeetup2;
 
@@ -29,9 +29,24 @@ namespace xamarinMeetup2_x_ios
 
         partial void CalculateButton_TouchUpInside(UIButton sender)
         {
-            arithmeticLabel.Text = "Arithmetic: " + mathModel?.ArithmeticPerformance;
-            collectionsLabel.Text = "Collections: " + mathModel?.CollectionPerformance;
-            stringsLabel.Text = "Strings: " + mathModel?.StringPerformance;
+            Task.Run(() =>
+                    {
+                        // calculate in background
+                        var arithmetic = "Arithmetic: " + mathModel?.ArithmeticPerformance;
+                        var collections = "Collections: " + mathModel?.CollectionPerformance;
+                        var strings = "Strings: " + mathModel?.StringPerformance;
+
+                        // update in UI thread
+                        InvokeOnMainThread(() =>
+                                {
+                                    arithmeticLabel.Text = arithmetic;
+                                    collectionsLabel.Text = collections;
+                                    stringsLabel.Text = strings;
+                                }
+                            );
+
+
+                    });
         }
     }
 }
