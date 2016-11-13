@@ -1,9 +1,10 @@
 package yn.xamarinmeetup2_android;
 
-import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -95,13 +96,8 @@ public class MainActivity extends AppCompatActivity {
         public ListFragment() {
         }
 
-        /**
-         * Returns a new instance of this fragment for the given section
-         * number.
-         */
         public static ListFragment newInstance() {
-            ListFragment fragment = new ListFragment();
-            return fragment;
+            return new ListFragment();
         }
 
         @Override
@@ -131,7 +127,6 @@ public class MainActivity extends AppCompatActivity {
             }
 
             String jsonString = writer.toString();
-
 
             try {
                 array = new JSONArray(jsonString);
@@ -176,23 +171,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public static class CalculationsFragment extends Fragment {
+        private TestExecutor testExecutor;
 
         public CalculationsFragment() {
         }
 
-        /**
-         * Returns a new instance of this fragment for the given section
-         * number.
-         */
         public static CalculationsFragment newInstance() {
-            CalculationsFragment fragment = new CalculationsFragment();
-            return fragment;
+            return new CalculationsFragment();
         }
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_calculations, container, false);
+            final View rootView = inflater.inflate(R.layout.fragment_calculations, container, false);
+            testExecutor = new TestExecutor();
 
             Button button = (Button) rootView.findViewById(R.id.buttonCalculate);
             button.setOnClickListener(new View.OnClickListener() {
@@ -201,7 +193,19 @@ public class MainActivity extends AppCompatActivity {
                     AsyncTask.execute(new Runnable() {
                         @Override
                         public void run() {
+                            final String arithmetic = "Arithmetic: " + testExecutor.Run(new ArithmeticTest());
+                            final String collections = "Collections: " + testExecutor.Run(new CollectionsTest());
+                            final String strings = "Strings: " + testExecutor.Run(new StringsTest(getActivity()));
 
+                            Handler h = new Handler(Looper.getMainLooper());
+                            h.post(new Runnable() {
+                                @Override
+                                public void run() {
+                                    ((TextView) rootView.findViewById(R.id.textViewArithmetic)).setText(arithmetic);
+                                    ((TextView) rootView.findViewById(R.id.textViewCollections)).setText(collections);
+                                    ((TextView) rootView.findViewById(R.id.textViewStrings)).setText(strings);
+                                }
+                            });
                         }
                     });
                 }
@@ -231,7 +235,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
-
         public SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
         }

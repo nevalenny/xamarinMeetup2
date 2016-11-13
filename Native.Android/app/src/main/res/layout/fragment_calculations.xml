@@ -15,7 +15,7 @@
         p1:layout_height="wrap_content"
         p1:layout_width="match_parent"
         p1:paddingBottom="8dp"
-        p1:text="Xamarin.Android Performance"
+        p1:text="Native.Android Performance"
         p1:textAppearance="?android:attr/textAppearanceMedium" />
     <TextView
         p1:gravity="center_horizontal"
