@@ -6,7 +6,7 @@ using Android.Support.V7.App;
 
 namespace xamarinMeetup2_x_android
 {
-    [Activity(Label = "xamarinMeetup2_x_android", MainLauncher = true, Theme = "@style/AppTheme.NoActionBar", Icon = "@mipmap/icon")]
+    [Activity(Label = "xm2 XDroid", MainLauncher = true, Theme = "@style/AppTheme.NoActionBar", Icon = "@mipmap/icon")]
     public class MainActivity : AppCompatActivity
     {
         /**

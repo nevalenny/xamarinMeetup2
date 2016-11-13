@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Xamarin.Forms;
 
@@ -30,7 +31,14 @@ namespace xamarinMeetup2
 
         void Calculate(object sender, EventArgs e)
         {
-            mathPage.BindingContext = new MathModel();
+            var mathModel = new MathModel();
+            Task.Run(() =>
+                {
+                    mathModel.RunTests();
+                    Device.BeginInvokeOnMainThread(() =>
+                                                   mathPage.BindingContext = mathModel);
+                }
+            );
         }
     }
 }

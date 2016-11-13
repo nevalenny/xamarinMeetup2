@@ -9,76 +9,92 @@ namespace xamarinMeetup2
 {
     public class MathModel
     {
-        public string ArithmeticPerformance
+        public string ArithmeticPerformance { get; set; }
+
+        public string CollectionPerformance { get; set; }
+
+        public string StringPerformance { get; set; }
+
+        public void RunTests()
         {
-            get
+            long arithmeticAverage = 0;
+            long collectionsAverage = 0;
+            long stringsAverage = 0;
+
+            for (int i = 0; i < 5; i++)
             {
-                var timer = System.Diagnostics.Stopwatch.StartNew();
-
-                int pans = 0;
-                int primes = 0;
-                double foo = 0;
-                for (int i = 0; i < 12345; i++)
-                {
-                    if (IsPandigital(i))
-                        pans++;
-
-                    if (IsPrime(i))
-                        primes++;
-
-                    foo += CalculateFoo(i);
-                }
-
-                timer.Stop();
-                return timer.ElapsedMilliseconds + "ms";
+                arithmeticAverage += CalcArithmetic();
+                collectionsAverage += CalcCollections();
+                stringsAverage += CalcStrings();
             }
+
+            ArithmeticPerformance = arithmeticAverage / 5 + "ms";
+            CollectionPerformance = collectionsAverage / 5 + "ms";
+            StringPerformance = stringsAverage / 5 + "ms";
         }
 
-        public string CollectionPerformance
+        long CalcArithmetic()
         {
-            get
+            var timer = System.Diagnostics.Stopwatch.StartNew();
+
+            int pans = 0;
+            int primes = 0;
+            double foo = 0;
+            for (int i = 0; i < 12345; i++)
             {
-                var timer = System.Diagnostics.Stopwatch.StartNew();
+                if (IsPandigital(i))
+                    pans++;
 
-                var list = new List<FooContainer>(); //let's don't specify initial capacity
-                for (int i = 0; i < 1000000; i++)
-                {
-                    list.Add(new FooContainer(i, i));
-                }
-                var filteredList = new List<FooContainer>();
-                for (int i = 0; i < list.Count; i++)
-                {
-                    if (list[i].Sum % 2 == 0)
-                    {
-                        filteredList.Add(list[i]);
-                    }
-                }
+                if (IsPrime(i))
+                    primes++;
 
-                timer.Stop();
-                return timer.ElapsedMilliseconds + "ms";
+                foo += CalculateFoo(i);
             }
+
+            timer.Stop();
+            return timer.ElapsedMilliseconds;
         }
 
-        public string StringPerformance
+        long CalcCollections()
         {
-            get
+            var timer = System.Diagnostics.Stopwatch.StartNew();
+
+            var list = new List<FooContainer>(); //let's don't specify initial capacity
+            for (int i = 0; i < 1000000; i++)
             {
-                var timer = System.Diagnostics.Stopwatch.StartNew();
-                string result = "";
-                var builder = new StringBuilder();
-                for (int i = 0; i < 100000; i++)
-                {
-                    builder.Append(i);
-                }
-                result = builder.ToString();
-                result = result.Substring(1000);
-                result = result.Replace("10", "");
-                bool containsSubstring = result.Contains("123");
-                string[] parts = result.Split('2');
-                int length = parts.Length;
-                timer.Stop();
-                return timer.ElapsedMilliseconds + "ms";
+                list.Add(new FooContainer(i, i));
             }
+            var filteredList = new List<FooContainer>();
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].Sum % 2 == 0)
+                {
+                    filteredList.Add(list[i]);
+                }
+            }
+
+            timer.Stop();
+            return timer.ElapsedMilliseconds;
+        }
+
+        long CalcStrings()
+        {
+            var timer = System.Diagnostics.Stopwatch.StartNew();
+            string result = "";
+            var builder = new StringBuilder();
+            for (int i = 0; i < 100000; i++)
+            {
+                builder.Append(i);
+            }
+
+            result = builder.ToString();
+            result = result.Substring(1000);
+            result = result.Replace("10", "");
+            bool containsSubstring = result.Contains("123");
+            string[] parts = result.Split('2');
+            int length = parts.Length;
+            timer.Stop();
+            return timer.ElapsedMilliseconds;
         }
 
         bool IsPrime(int n)
