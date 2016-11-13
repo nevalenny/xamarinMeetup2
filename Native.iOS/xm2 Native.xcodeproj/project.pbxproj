@@ -10,7 +10,7 @@
 		5C1D22D41B3A6806E5FFA7CE /* Pods_xm2_NativeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32630A167E19E7AF2A471ED5 /* Pods_xm2_NativeTests.framework */; };
 		A1335119F2FE6D4521BBC53C /* Pods_xm2_Native.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1CB94733FCFFE31EA926E8 /* Pods_xm2_Native.framework */; };
 		B93DEA3E1DD8F8980018C021 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B93DEA3D1DD8F8980018C021 /* SwiftyJSON.framework */; };
-		B93DEA401DD8FF9D0018C021 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93DEA3F1DD8FF9D0018C021 /* ItemCell.swift */; };
+		B93DEA421DD913A90018C021 /* MathModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93DEA411DD913A90018C021 /* MathModel.swift */; };
 		B9B1A3F21DD8DED500863F78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B1A3F11DD8DED500863F78 /* AppDelegate.swift */; };
 		B9B1A3F41DD8DED500863F78 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B1A3F31DD8DED500863F78 /* FirstViewController.swift */; };
 		B9B1A3F61DD8DED500863F78 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B1A3F51DD8DED500863F78 /* SecondViewController.swift */; };
@@ -48,7 +48,7 @@
 		AA1CB94733FCFFE31EA926E8 /* Pods_xm2_Native.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xm2_Native.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CA1B2543B86907FD3BA71E /* Pods-xm2 NativeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xm2 NativeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-xm2 NativeUITests/Pods-xm2 NativeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B93DEA3D1DD8F8980018C021 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/xm2_Native-esidzzirzwdxhsbpglwqqvqyaxcc/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
-		B93DEA3F1DD8FF9D0018C021 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		B93DEA411DD913A90018C021 /* MathModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathModel.swift; sourceTree = "<group>"; };
 		B9B1A3EE1DD8DED500863F78 /* xm2 Native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xm2 Native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B1A3F11DD8DED500863F78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9B1A3F31DD8DED500863F78 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 				B9B1A3FA1DD8DED500863F78 /* Assets.xcassets */,
 				B9B1A3FC1DD8DED500863F78 /* LaunchScreen.storyboard */,
 				B9B1A3FF1DD8DED500863F78 /* Info.plist */,
-				B93DEA3F1DD8FF9D0018C021 /* ItemCell.swift */,
+				B93DEA411DD913A90018C021 /* MathModel.swift */,
 			);
 			path = "xm2 Native";
 			sourceTree = "<group>";
@@ -461,8 +461,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B93DEA401DD8FF9D0018C021 /* ItemCell.swift in Sources */,
 				B9B1A3F61DD8DED500863F78 /* SecondViewController.swift in Sources */,
+				B93DEA421DD913A90018C021 /* MathModel.swift in Sources */,
 				B9B1A3F21DD8DED500863F78 /* AppDelegate.swift in Sources */,
 				B9B1A3F41DD8DED500863F78 /* FirstViewController.swift in Sources */,
 			);
