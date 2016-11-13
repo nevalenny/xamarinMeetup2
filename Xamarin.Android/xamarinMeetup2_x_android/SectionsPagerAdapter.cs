@@ -30,14 +30,21 @@ namespace xamarinMeetup2_x_android
                 case 1:
                     return new Java.Lang.String("Calculations");
             }
+
             return null;
         }
 
         public override Fragment GetItem(int position)
         {
-            // getItem is called to instantiate the fragment for the given page.
-            // Return a PlaceholderFragment
-            return PlaceholderFragment.NewInstance(position + 1);
+           switch (position)
+            {
+                case 0:
+                    return ListFragment.NewInstance();
+                case 1:
+                    return CalculationsFragment.NewInstance();
+            }
+
+            return null;
         }
     }
 }

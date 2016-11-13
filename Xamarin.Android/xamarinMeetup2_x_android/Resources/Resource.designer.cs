@@ -2014,8 +2014,8 @@ namespace xamarinMeetup2_x_android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a007c
-			public const int action0 = 2131361916;
+			// aapt resource value: 0x7f0a007f
+			public const int action0 = 2131361919;
 			
 			// aapt resource value: 0x7f0a005e
 			public const int action_bar = 2131361886;
@@ -2041,8 +2041,8 @@ namespace xamarinMeetup2_x_android
 			// aapt resource value: 0x7f0a005f
 			public const int action_context_bar = 2131361887;
 			
-			// aapt resource value: 0x7f0a0080
-			public const int action_divider = 2131361920;
+			// aapt resource value: 0x7f0a0083
+			public const int action_divider = 2131361923;
 			
 			// aapt resource value: 0x7f0a0004
 			public const int action_menu_divider = 2131361796;
@@ -2089,8 +2089,8 @@ namespace xamarinMeetup2_x_android
 			// aapt resource value: 0x7f0a0047
 			public const int buttonPanel = 2131361863;
 			
-			// aapt resource value: 0x7f0a007d
-			public const int cancel_action = 2131361917;
+			// aapt resource value: 0x7f0a0080
+			public const int cancel_action = 2131361920;
 			
 			// aapt resource value: 0x7f0a0012
 			public const int center = 2131361810;
@@ -2104,8 +2104,8 @@ namespace xamarinMeetup2_x_android
 			// aapt resource value: 0x7f0a0055
 			public const int checkbox = 2131361877;
 			
-			// aapt resource value: 0x7f0a0083
-			public const int chronometer = 2131361923;
+			// aapt resource value: 0x7f0a0086
+			public const int chronometer = 2131361926;
 			
 			// aapt resource value: 0x7f0a001e
 			public const int clip_horizontal = 2131361822;
@@ -2158,8 +2158,8 @@ namespace xamarinMeetup2_x_android
 			// aapt resource value: 0x7f0a0015
 			public const int end = 2131361813;
 			
-			// aapt resource value: 0x7f0a0088
-			public const int end_padder = 2131361928;
+			// aapt resource value: 0x7f0a008b
+			public const int end_padder = 2131361931;
 			
 			// aapt resource value: 0x7f0a000b
 			public const int enterAlways = 2131361803;
@@ -2203,8 +2203,11 @@ namespace xamarinMeetup2_x_android
 			// aapt resource value: 0x7f0a0042
 			public const int image = 2131361858;
 			
-			// aapt resource value: 0x7f0a0087
-			public const int info = 2131361927;
+			// aapt resource value: 0x7f0a007d
+			public const int imageView1 = 2131361917;
+			
+			// aapt resource value: 0x7f0a008a
+			public const int info = 2131361930;
 			
 			// aapt resource value: 0x7f0a0001
 			public const int item_touch_helper_previous_elevation = 2131361793;
@@ -2212,11 +2215,14 @@ namespace xamarinMeetup2_x_android
 			// aapt resource value: 0x7f0a0017
 			public const int left = 2131361815;
 			
-			// aapt resource value: 0x7f0a0081
-			public const int line1 = 2131361921;
+			// aapt resource value: 0x7f0a0084
+			public const int line1 = 2131361924;
 			
-			// aapt resource value: 0x7f0a0085
-			public const int line3 = 2131361925;
+			// aapt resource value: 0x7f0a0088
+			public const int line3 = 2131361928;
+			
+			// aapt resource value: 0x7f0a007b
+			public const int linearLayout1 = 2131361915;
 			
 			// aapt resource value: 0x7f0a002c
 			public const int listMode = 2131361836;
@@ -2227,8 +2233,8 @@ namespace xamarinMeetup2_x_android
 			// aapt resource value: 0x7f0a006d
 			public const int main_content = 2131361901;
 			
-			// aapt resource value: 0x7f0a007f
-			public const int media_actions = 2131361919;
+			// aapt resource value: 0x7f0a0082
+			public const int media_actions = 2131361922;
 			
 			// aapt resource value: 0x7f0a0037
 			public const int middle = 2131361847;
@@ -2268,6 +2274,9 @@ namespace xamarinMeetup2_x_android
 			
 			// aapt resource value: 0x7f0a0057
 			public const int radio = 2131361879;
+			
+			// aapt resource value: 0x7f0a007c
+			public const int recyclerView1 = 2131361916;
 			
 			// aapt resource value: 0x7f0a0018
 			public const int right = 2131361816;
@@ -2320,9 +2329,6 @@ namespace xamarinMeetup2_x_android
 			// aapt resource value: 0x7f0a006b
 			public const int search_voice_btn = 2131361899;
 			
-			// aapt resource value: 0x7f0a007b
-			public const int section_label = 2131361915;
-			
 			// aapt resource value: 0x7f0a006c
 			public const int select_dialog_listview = 2131361900;
 			
@@ -2365,8 +2371,8 @@ namespace xamarinMeetup2_x_android
 			// aapt resource value: 0x7f0a0019
 			public const int start = 2131361817;
 			
-			// aapt resource value: 0x7f0a007e
-			public const int status_bar_latest_event_content = 2131361918;
+			// aapt resource value: 0x7f0a0081
+			public const int status_bar_latest_event_content = 2131361921;
 			
 			// aapt resource value: 0x7f0a0058
 			public const int submenuarrow = 2131361880;
@@ -2380,20 +2386,23 @@ namespace xamarinMeetup2_x_android
 			// aapt resource value: 0x7f0a006f
 			public const int tabs = 2131361903;
 			
-			// aapt resource value: 0x7f0a0086
-			public const int text = 2131361926;
+			// aapt resource value: 0x7f0a0089
+			public const int text = 2131361929;
 			
-			// aapt resource value: 0x7f0a0084
-			public const int text2 = 2131361924;
+			// aapt resource value: 0x7f0a0087
+			public const int text2 = 2131361927;
 			
 			// aapt resource value: 0x7f0a0050
 			public const int textSpacerNoButtons = 2131361872;
 			
+			// aapt resource value: 0x7f0a007e
+			public const int textView1 = 2131361918;
+			
 			// aapt resource value: 0x7f0a007a
 			public const int text_input_password_toggle = 2131361914;
 			
-			// aapt resource value: 0x7f0a0082
-			public const int time = 2131361922;
+			// aapt resource value: 0x7f0a0085
+			public const int time = 2131361925;
 			
 			// aapt resource value: 0x7f0a0046
 			public const int title = 2131361862;
@@ -2593,43 +2602,49 @@ namespace xamarinMeetup2_x_android
 			public const int design_text_input_password_icon = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int fragment_main = 2130968616;
+			public const int fragment_calculations = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int notification_media_action = 2130968617;
+			public const int fragment_list = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int notification_media_cancel_action = 2130968618;
+			public const int list_cell = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_template_big_media = 2130968619;
+			public const int notification_media_action = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_template_big_media_narrow = 2130968620;
+			public const int notification_media_cancel_action = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_template_lines = 2130968621;
+			public const int notification_template_big_media = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_template_media = 2130968622;
+			public const int notification_template_big_media_narrow = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_template_part_chronometer = 2130968623;
+			public const int notification_template_lines = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_template_part_time = 2130968624;
+			public const int notification_template_media = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int select_dialog_item_material = 2130968625;
+			public const int notification_template_part_chronometer = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int select_dialog_multichoice_material = 2130968626;
+			public const int notification_template_part_time = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int select_dialog_singlechoice_material = 2130968627;
+			public const int select_dialog_item_material = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int support_simple_spinner_dropdown_item = 2130968628;
+			public const int select_dialog_multichoice_material = 2130968628;
+			
+			// aapt resource value: 0x7f040035
+			public const int select_dialog_singlechoice_material = 2130968629;
+			
+			// aapt resource value: 0x7f040036
+			public const int support_simple_spinner_dropdown_item = 2130968630;
 			
 			static Layout()
 			{

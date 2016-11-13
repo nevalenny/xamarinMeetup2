@@ -1,12 +1,8 @@
 ﻿using Android.App;
 using Android.OS;
 using Android.Support.Design.Widget;
-using Android.Support.V4.App;
 using Android.Support.V4.View;
-using Android.Support.V4.Widget;
 using Android.Support.V7.App;
-using Android.Support.V7.Widget;
-using Fragment = Android.Support.V4.App.Fragment;
 
 namespace xamarinMeetup2_x_android
 {
@@ -32,8 +28,6 @@ namespace xamarinMeetup2_x_android
         {
             base.OnCreate(savedInstanceState);
 
-            //this.Tab
-
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
 
@@ -45,7 +39,7 @@ namespace xamarinMeetup2_x_android
             mViewPager = (ViewPager)FindViewById(Resource.Id.container);
             mViewPager.Adapter = mSectionsPagerAdapter;
 
-            TabLayout tabLayout = (TabLayout)FindViewById(Resource.Id.tabs);
+            var tabLayout = (TabLayout)FindViewById(Resource.Id.tabs);
             tabLayout.SetupWithViewPager(mViewPager);
         }
     }
