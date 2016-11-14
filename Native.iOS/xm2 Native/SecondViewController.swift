@@ -26,7 +26,7 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func Calculate(_ sender: Any) {
-        DispatchQueue.global(qos: .background).async {
+        DispatchQueue.global(qos: .userInitiated).async {
             let mathModel = MathModel()
             mathModel.calculate()
             
