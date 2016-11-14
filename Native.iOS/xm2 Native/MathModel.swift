@@ -12,7 +12,7 @@ class MathModel {
     public var arithmeticPerformance: String = ""
     public var collectionsPerformance: String = ""
     public var stringsPerformance: String = ""
-    let repetitions = 1
+    let repetitions = 5
     
     public func calculate()
     {
